@@ -1,0 +1,13 @@
+[Unit]
+Description=My_brightness_control
+
+[Service]
+ExecStart=/usr/bin/davidzong_brightness_control
+Restart=always
+User=root
+Group=root
+Environment=PATH=/usr/bin:/usr/local/bin
+EnvironmentFile=-/etc/default/dz_brightness_control
+
+[Install]
+WantedBy=multi-user.target

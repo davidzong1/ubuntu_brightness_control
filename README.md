@@ -5,7 +5,7 @@
 2.因此我使用曲线救国路线，检测nvidia_wmi_ec_backlight的值并写入nvidia_wmi_ec_backlight里并做成开机自启动的守护程序，当nvidia_wmi_ec_backlight值发生变化时触发写入。
 
 # 使用方法Usage:
-
+进入install文件夹
 ```bash
 sudo install/install.sh
 ```
